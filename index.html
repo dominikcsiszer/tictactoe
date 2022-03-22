@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csiszér Alex Dominik</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+        <section>
+            <form action="">
+                <h3>Játékosok neve</h3>
+                <div class="form-item">
+                    <label for="player1">1.játékos(X): </label>
+                    <input type="text" name="player1" id="player1" placeholder="Első játékos">
+                </div>
+                <div class="form-item">
+                    <label for="player2">2.játékos(O): </label>
+                    <input type="text" name="player2" id="player2" placeholder="Első játékos">
+                </div>
+                <button type="button" id="submit">Kezdés</button>
+            </form>
+        </section>
+        <div class="jatek__menet">
+            <div class="jatek">
+                <div class="box" play=""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+                <div class="box" play =""></div>
+            </div>
+            <div class="jatek__allapot">
+                <h3>Játék állapot:</h3>
+                <p id="jatekAllapot"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

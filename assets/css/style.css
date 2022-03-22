@@ -1,0 +1,57 @@
+*::before::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.jatek__menet {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.jatek {
+    max-width: 400px;
+    padding: 10px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.jatek .box {
+    margin: 5px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.jatek__allapot {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 40%);
+}
